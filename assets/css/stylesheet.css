@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+.bg-oreng {
+    background-color: #FF3838;
+}
+
+.bg-light-sky {
+    background-color: #F3F4FF;
+}
+
+.bg-light-cream {
+    background-color: #FFEEEE;
+}
+
+.text-oreng {
+    color: #FF3838;
+}
+
+.border-oreng {
+     border: 1px solid #FF3838 !important;
+}
+.border-white {
+     border: 1px solid #fff !important;
+}
+
+/* HERO SECTION START HERE  */
+    .slider_bar {
+        position: relative;
+        background-image: url('../img/Group_2203.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; 
+        padding: 7rem 0;
+    }
+/* HERO SECTION END HERE  */
+
+/* about section start here */
+.about_page {
+    position: relative;
+    background-image: url('../img/Purple_Background_Decoration_Transparent_PNG_Clip_Art_Image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    padding: 5rem 0; 
+}
+
+.about_a h2::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* top: 0; */
+    width: 90px;
+    height: 3px;
+    background-color: #FF3838;
+    border-radius: 50px;
+
+}
+.about_bg_s {
+    position: relative;
+    background-image: url('../img/Group_2203.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    padding: 5rem 0; 
+}
+.shrimad_bhagwat {
+    border-radius: 15px;
+    width: 270px;
+    height: 250px;
+    display: grid;
+    transition: 0.5s;
+    backdrop-filter: blur(12px);
+    background: #f7f2fa;
+    margin-top: 0;
+    cursor: pointer;
+    padding: 10px;
+}
+.bhagwat_img {
+    transition: 0.5s; 
+    margin-top: 0;
+}
+.shrimad_bhagwat:hover .bhagwat_img {
+    margin-top: -15px;
+    color: #FF3838;
+}
+.bhagwat_img img {
+    width: 100px;
+    height: 100px;
+}
+/* about section end here */
+
+/* upcoming events section start here */
+.upcoming_events {
+    padding: 4rem 0;
+}
+.main_box_upcoming {
+    border-radius: 12px;
+    position: relative;
+}
+.upcomings_img_box img {
+    object-fit: cover;
+    height: 150px;
+}
+.upcomings_img_box .dates__1 {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background-color: #FF3838;
+    border-radius: 5px;
+}
+/* upcoming events section end here */
+
+/* our gallery section start here */
+.gallery_img_box img {
+    object-fit: cover;
+    height: 250px;
+    border-radius: 12px;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
+    transition: .5s;
+}
+.gallery_img_box:hover img {
+    margin-top: -15px;
+}
+/* our gallery section end here */
+
+/* subscribe section start here */
+.subscribes{
+    padding: 4rem 0;
+}
+.subscribes_bgs {
+    position: relative;
+    background-image: url('../img/Group_2219.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    padding: 4rem 0; 
+    border-radius: 12px;
+}
+/* subscribe section end here */
+
+/* footer section start here */
+.bottom_footers {
+    background-color: #041721;
+    padding: 3rem 0;
+}
+/* footer section end here */
