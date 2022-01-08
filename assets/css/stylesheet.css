@@ -41,6 +41,11 @@ body {
         background-size: cover; 
         padding: 7rem 0;
     }
+    .jaya_img img {
+        width: 350px !important;
+        height: 350px !important;
+        object-fit: cover;
+    }
 /* HERO SECTION END HERE  */
 
 /* about section start here */
